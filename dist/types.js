@@ -1,0 +1,26 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.DependencyType = void 0;
+var DependencyType;
+(function (DependencyType) {
+    DependencyType["ApexClass"] = "ApexClass";
+    DependencyType["CustomObject"] = "CustomObject";
+    DependencyType["SystemType"] = "SystemType";
+    DependencyType["Trigger"] = "Trigger";
+    DependencyType["TriggerField"] = "TriggerField";
+    DependencyType["CustomField"] = "CustomField";
+    DependencyType["CustomLabel"] = "CustomLabel";
+    DependencyType["CustomValidationRule"] = "CustomValidationRule";
+    DependencyType["CustomApplication"] = "CustomApplication";
+    DependencyType["CustomPage"] = "CustomPage";
+    DependencyType["ApexInterface"] = "ApexInterface";
+    DependencyType["ApexEnum"] = "ApexEnum";
+    DependencyType["ApexTrigger"] = "ApexTrigger";
+    DependencyType["ApexPage"] = "ApexPage";
+    DependencyType["ApexComponent"] = "ApexComponent";
+    DependencyType["ApexPageComponent"] = "ApexPageComponent";
+    DependencyType["ApexPageSection"] = "ApexPageSection";
+    DependencyType["ApexPageRegion"] = "ApexPageRegion";
+    DependencyType["ApexPageItem"] = "ApexPageItem";
+    DependencyType["ApexPageWebLink"] = "ApexPageWebLink";
+})(DependencyType || (exports.DependencyType = DependencyType = {}));
